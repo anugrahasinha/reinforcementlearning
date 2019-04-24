@@ -41,7 +41,7 @@ Example:
 
 #### Algorithm (Q Learning - Deterministic States - (without Neural Networks)
 
-* THIS PART IS STILL TO BE COMPLETED *
+**THIS PART IS STILL TO BE COMPLETED**
 
 Following are the 2 main equations in Reinforcement Learning environment
 
