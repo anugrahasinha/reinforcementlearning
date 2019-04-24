@@ -11,7 +11,7 @@ Conventional TicTacToe game involes just 2 kinds of inputs (X or O). However, in
 
 Example:
 
-<img src="images/img1.jpg">
+<img src="images/img1.JPG">
 
 
 #### Environment
