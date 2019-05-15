@@ -41,16 +41,19 @@ Example:
 
 #### Algorithm (Q Learning - Deterministic States - (without Neural Networks)
 
-* THIS PART IS STILL TO BE COMPLETED *
-
 Following are the 2 main equations in Reinforcement Learning environment
 
-State Value Function : 
+State Value Function : $V(s) = \pi(a,s)Q_\pi(s,a)$
 
-Action Value Function (q-value) : 
+Action Value Function (q-value) : $Q_\pi(s,a) = P(\hat{s},r | s,a)[ r + \gamma( V(\hat{s}) ) ]$
+
+Combined Equation (based on state value) : $V(s) = \pi(a,s)P(\hat{s},r | s,a)[ r + \gamma( V(\hat{s}) ) ]$
+
 The concept of Q-Learning comes under **Model Free** Reinforcement Learning. With Model Free what is meant is that the model of the environment is not known, precisely 
 
-`P(s(hat),r | s, a)` - Probability of moving to `s(hat)` state and getting a `reward (r)` given present `state (s)` and `action (a)`
+$P(\hat{s},r | s,a)$ - Probability of moving to state ($\hat{s}$) and getting a reward ($r$) given present ($s$) and ($a$).
 
 The above probabilistic map of environment, is not available in **Model Free** environments.
+
+(To be updated)
 
