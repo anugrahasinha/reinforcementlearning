@@ -11,7 +11,7 @@ Conventional TicTacToe game involes just 2 kinds of inputs (X or O). However, in
 
 Example:
 
-<img src="images/img1.jpg">
+<img src="images/img1.JPG">
 
 
 #### Environment
@@ -56,4 +56,3 @@ $P(\hat{s},r | s,a)$ - Probability of moving to state ($\hat{s}$) and getting a 
 The above probabilistic map of environment, is not available in **Model Free** environments.
 
 (To be updated)
-
