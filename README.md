@@ -9,3 +9,7 @@ Reinforcement Learning Experiments
 - Objective :
 - - A player wins when he/she is able to attain a SUM of 15 in any row/column or major diagonals.
 - Look for more details in repo directory
+
+2. RL Based Cab Driver Ride Selection
+- A model for cab drivers to select appropriate rides suggested by a hypothetical city map.
+- (To be updated)
